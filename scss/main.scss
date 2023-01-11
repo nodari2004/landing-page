@@ -1,0 +1,27 @@
+@import 'reset';
+@import 'navbar';
+@import 'fonts';
+@import 'main-img';
+@import 'down';
+@import 'collection';
+@import 'space';
+@import 'range';
+@import 'line';
+@import 'works';
+@import 'mailing';
+@import 'beauty';
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+}

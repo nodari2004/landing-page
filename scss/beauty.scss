@@ -1,0 +1,61 @@
+
+
+.beauty{
+    max-width: 1440px;
+    width: 100%;
+    height: 386px;
+    background: #03344F;
+    .container{
+        .beauty-2{
+            display: flex;
+            justify-content: space-between;
+            .beauty-text{
+                .beauty-h3{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                    padding-top: 49px;
+                }
+                .beauty-p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 35px;
+                    color: #FFFFFF;
+                    margin-top: 34px;
+                }
+                .beauty-h3-2{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                    margin-top: 21px;
+                }
+            }
+            .bea{
+                justify-content: space-between;
+                .bea-h3{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #FFFFFF; 
+                    padding-top: 60px;                   
+                }
+                .bea-ph{
+                    margin-top: 23px;
+                    
+                    
+                }
+            }
+            
+        }
+    }
+}

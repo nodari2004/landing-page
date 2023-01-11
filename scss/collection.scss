@@ -1,0 +1,45 @@
+
+
+.collection{ 
+    text-align: center;
+    height: 731px;
+    .collection-text{
+        .coll-h3{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #333333;
+            padding-top: 60px;
+            
+        }
+        .coll-p{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #666666;
+        }
+    }
+    .tree-photo{
+        .tre-photo{
+            margin-top: 50px;
+            max-width: 1145px;
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 750px) {
+    .collection{
+        height: 631px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .collection{
+        height: 431px;
+    }
+}

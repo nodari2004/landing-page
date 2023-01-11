@@ -1,0 +1,46 @@
+.down-section{
+    width: 100%;
+    background:  #F2F5FF;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    width: 100%;
+    .bus{
+        display: flex;
+        .bus-photo{
+
+        }
+        .bus-text{
+            margin-left: 27px;
+            h3{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+                color: #333333;
+            }
+            p{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #333333;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .down {
+        flex-direction: column;
+        align-items: center;
+        div{
+            margin-bottom: 30px;
+        }
+    }
+}
